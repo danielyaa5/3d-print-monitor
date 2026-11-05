@@ -1,6 +1,6 @@
 # Support
 
-Read the [setup instructions](../README.md#setup), then [open an issue](https://github.com/danielyaa5/3d-printer-widget/issues) if you need help.
+Read the [setup instructions](../README.md#setup), then [open an issue](https://github.com/danielyaa5/3d-print-monitor/issues) if you need help.
 
 Include your app version, operating-system version, printer model, firmware version, connection type, what you expected, and what happened. Redact credentials, serial numbers, addresses, certificate fingerprints, filenames, and identifying information from screenshots and logs.
 

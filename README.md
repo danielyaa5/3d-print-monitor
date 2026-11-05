@@ -4,7 +4,7 @@ Native 3D printer monitoring for iPhone, iPad, and Mac.
 
 **[Download for iPhone and iPad on the App Store](https://apps.apple.com/app/id6824940843)**
 
-[Download for Mac](https://github.com/danielyaa5/3d-printer-widget/releases/latest/download/Print-Progress.dmg) · [Website](https://danielyaa5.github.io/3d-printer-widget/) · [Support](docs/support.md) · [Privacy](docs/privacy.md)
+[Download for Mac](https://github.com/danielyaa5/3d-print-monitor/releases/latest/download/Print-Progress.dmg) · [Website](https://danielyaa5.github.io/3d-print-monitor/) · [Support](docs/support.md) · [Privacy](docs/privacy.md)
 
 See print progress, time remaining, the current job, layers, and available temperatures. Add multiple printers and choose which one appears in a widget. The Mac app also includes a menu bar view.
 
@@ -13,9 +13,9 @@ See print progress, time remaining, the current job, layers, and available tempe
 | Platform | Download | Requirements |
 | --- | --- | --- |
 | iPhone and iPad | [App Store](https://apps.apple.com/app/id6824940843) | iOS / iPadOS 17 or later |
-| Mac | [Direct DMG download](https://github.com/danielyaa5/3d-printer-widget/releases/latest/download/Print-Progress.dmg) | macOS 14 or later; Apple silicon or Intel |
+| Mac | [Direct DMG download](https://github.com/danielyaa5/3d-print-monitor/releases/latest/download/Print-Progress.dmg) | macOS 14 or later; Apple silicon or Intel |
 
-The Mac download remains available here while the Mac App Store version awaits approval. Open the DMG, drag Print Progress to Applications, then open the installed app. [Mac releases and checksums](https://github.com/danielyaa5/3d-printer-widget/releases/latest).
+The Mac download remains available here while the Mac App Store version awaits approval. Open the DMG, drag Print Progress to Applications, then open the installed app. [Mac releases and checksums](https://github.com/danielyaa5/3d-print-monitor/releases/latest).
 
 Features can differ between the App Store version and the direct Mac release.
 
@@ -39,7 +39,7 @@ Add Print Progress from your device's widget gallery, then edit the widget to ch
 
 ## Support and source
 
-This public repository contains downloads, documentation, and the [issue tracker](https://github.com/danielyaa5/3d-printer-widget/issues). App development is maintained in a private repository.
+This public repository contains downloads, documentation, and the [issue tracker](https://github.com/danielyaa5/3d-print-monitor/issues). App development is maintained in a private repository.
 
 Read the [support guide](docs/support.md) before reporting a problem. Do not include printer credentials, serial numbers, network addresses, or unredacted logs.
 
