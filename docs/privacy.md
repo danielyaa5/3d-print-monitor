@@ -2,7 +2,7 @@
 
 Updated November 5, 2026.
 
-3D Print Monitor (previously Print Progress on iPhone and iPad; still Print Progress on Mac) connects directly to the printers and local servers you configure. It has no developer-operated server, account system, advertising, analytics SDK, or tracking.
+3D Print Monitor (previously Print Progress on iPhone and iPad; still Print Progress on Mac) connects directly to the printers and local servers you configure. Printer monitoring does not use a developer-operated server. The app has no account system, advertising, analytics SDK, or tracking. An optional support form uses a support relay only when you tap Send request.
 
 ## Data on your device
 
@@ -28,7 +28,11 @@ Apple may collect crash and diagnostic information according to your operating-s
 
 ## Support
 
-If you contact support by email, the developer receives your email address and the content you choose to send and uses them to respond to your request. The in-app support form prepares a draft containing your message and app/system versions. Nothing is sent automatically. No printer settings, credentials, logs, or camera images are attached. You review and send the draft in your email app, or copy it into email or webmail.
+When you tap Send request in Contact support, the app sends your summary, message, optional reply email, the displayed app and operating-system versions, and a random request reference to a Cloudflare Worker. The relay forwards the request through Resend to support@danielyakobian.com. The email provider and receiving mailbox process and retain the request so the developer can respond. Cloudflare processes the connection's IP address for rate limiting. The relay stores no report bodies and has application logging disabled.
+
+No printer settings, credentials, status readings, logs, or camera images are attached. The form shows the information being sent before submission. Support is optional and is not required to monitor printers or use widgets. A success message means the service accepted the request for email delivery; it is not a read receipt. If sending fails, the form preserves your text while it remains open. Requests are used for support, not advertising or tracking.
+
+If you contact support by email instead, the developer receives your email address and whatever you choose to send. To ask about or request deletion of a support request, email support@danielyakobian.com and include its reference if available.
 
 If you voluntarily submit a GitHub issue, its contents are public and subject to GitHub's privacy policy. Do not include access codes, passwords, serial numbers, addresses, certificate fingerprints, or unredacted printer logs.
 
