@@ -1,4 +1,4 @@
-# Print Progress
+# 3D Print Monitor
 
 Native 3D printer monitoring for iPhone, iPad, and Mac.
 
@@ -28,14 +28,14 @@ Compatibility depends on firmware and the interface your printer exposes. Bambu 
 ## Setup
 
 1. Connect your device to the printer's network, or a VPN that can reach it.
-2. Open Print Progress, choose **Add printer**, and follow the connection walkthrough.
+2. Open the app, choose **Add printer**, and follow the connection walkthrough.
 3. Allow Local Network access when asked.
 
 Use **Explore the demo** to try the interface without a printer.
 
 ## Widgets
 
-Add Print Progress from your device's widget gallery, then edit the widget to choose a printer. Apple schedules widget refreshes and may delay them. Every reading keeps its actual timestamp; open the app for a fresh update.
+Add the app from your device's widget gallery, then edit the widget to choose a printer. Apple schedules widget refreshes and may delay them. Every reading keeps its actual timestamp; open the app for a fresh update.
 
 ## Support and source
 
@@ -43,4 +43,4 @@ This public repository contains downloads, documentation, and the [issue tracker
 
 Read the [support guide](docs/support.md) before reporting a problem. Do not include printer credentials, serial numbers, network addresses, or unredacted logs.
 
-Print Progress is an independent app and is not affiliated with printer manufacturers.
+3D Print Monitor is an independent app and is not affiliated with printer manufacturers.
