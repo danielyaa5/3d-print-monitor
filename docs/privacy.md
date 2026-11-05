@@ -1,8 +1,8 @@
 # Privacy policy
 
-Effective October 20, 2026.
+Updated November 5, 2026.
 
-Print Progress connects directly to the printers and local servers you configure. It has no developer-operated server, account system, advertising, analytics SDK, or tracking.
+3D Print Monitor (previously Print Progress on iPhone and iPad; still Print Progress on Mac) connects directly to the printers and local servers you configure. It has no developer-operated server, account system, advertising, analytics SDK, or tracking.
 
 ## Data on your device
 
@@ -27,6 +27,8 @@ The direct-download Mac app checks mounted disk-image metadata after launch to i
 Apple may collect crash and diagnostic information according to your operating-system settings. Development builds can write local verification reports for testing; App Store release builds disable those reports. The built-in demo uses fictional readings and makes no printer connections.
 
 ## Support
+
+If you contact support by email, the developer receives your email address and the content you choose to send and uses them to respond to your request. The in-app support form prepares a draft containing your message and app/system versions. Nothing is sent automatically. No printer settings, credentials, logs, or camera images are attached. You review and send the draft in your email app, or copy it into email or webmail.
 
 If you voluntarily submit a GitHub issue, its contents are public and subject to GitHub's privacy policy. Do not include access codes, passwords, serial numbers, addresses, certificate fingerprints, or unredacted printer logs.
 

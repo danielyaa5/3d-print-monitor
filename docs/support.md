@@ -1,6 +1,8 @@
 # Support
 
-Read the [setup instructions](../README.md#setup), then [open an issue](https://github.com/danielyaa5/3d-print-monitor/issues) if you need help.
+Read the [setup instructions](../README.md#setup), then email [support@danielyakobian.com](mailto:support@danielyakobian.com) if you need help. You can also [open an issue](https://github.com/danielyaa5/3d-print-monitor/issues) to report a bug or request a feature. GitHub issues are public.
+
+In iOS version 0.5.2 and later, open **Settings and help → Preferences → Contact support** to write an email draft. It includes your message and app/system versions. Review and send it in your email app, or use **Copy email draft** to paste it into email or webmail. Nothing is sent automatically, and no printer settings, logs, or pictures are attached.
 
 Include your app version, operating-system version, printer model, firmware version, connection type, what you expected, and what happened. Redact credentials, serial numbers, addresses, certificate fingerprints, filenames, and identifying information from screenshots and logs.
 
