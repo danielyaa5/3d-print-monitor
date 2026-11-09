@@ -2,6 +2,8 @@
 
 Native 3D printer monitoring for iPhone, iPad, and Mac.
 
+> **Very early beta.** 3D Print Monitor is still at a very early stage, which is why it's free. Expect some rough edges, and please [report anything that doesn't work](https://github.com/danielyaa5/3d-print-monitor/issues).
+
 **[Download for iPhone and iPad on the App Store](https://apps.apple.com/app/id6824940843)**
 
 [Download for Mac](https://github.com/danielyaa5/3d-print-monitor/releases/latest/download/Print-Progress.dmg) · [Website](https://danielyaa5.github.io/3d-print-monitor/) · [Support](docs/support.md) · [Privacy](docs/privacy.md)
