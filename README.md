@@ -2,24 +2,22 @@
 
 Native 3D printer monitoring for iPhone, iPad, and Mac.
 
-> **Very early beta.** 3D Print Monitor is still at a very early stage, which is why it's free. Expect some rough edges, and please [report anything that doesn't work](https://github.com/danielyaa5/3d-print-monitor/issues).
+> **Beta.** Only the Bambu Lab H2D and Creality K1 Max have been checked on real hardware so far. If you try another printer, please [report from the app](#beta-testing-and-reporting-problems) whether it works.
 
-**[Download for iPhone and iPad on the App Store](https://apps.apple.com/app/id6824940843)**
+**[Get 3D Print Monitor on the App Store](https://apps.apple.com/app/id6824940843)**
 
-[Download for Mac](https://github.com/danielyaa5/3d-print-monitor/releases/latest/download/Print-Progress.dmg) · [Website](https://danielyaa5.github.io/3d-print-monitor/) · [Support](docs/support.md) · [Privacy](docs/privacy.md)
+[Website](https://danielyaa5.github.io/3d-print-monitor/) · [Support](docs/support.md) · [Privacy](docs/privacy.md)
 
-See print progress, time remaining, the current job, layers, and available temperatures. Add multiple printers and choose which one appears in a widget. The Mac app also includes a menu bar view.
+See print progress, time remaining, the current job, layers, available temperatures and camera snapshots. Add multiple printers and choose which one appears in a widget, or show two printer cameras side by side with the Two Cameras widget. The Mac app also includes a menu bar view.
 
 ## Downloads
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
 | iPhone and iPad | [App Store](https://apps.apple.com/app/id6824940843) | iOS / iPadOS 17 or later |
-| Mac | [Direct DMG download](https://github.com/danielyaa5/3d-print-monitor/releases/latest/download/Print-Progress.dmg) | macOS 14 or later; Apple silicon or Intel |
+| Mac | Joining the same [App Store](https://apps.apple.com/app/id6824940843) listing; one purchase covers both | macOS 14 or later; Apple silicon or Intel |
 
-The Mac download remains available here while the Mac App Store version awaits approval. Open the DMG, drag Print Progress to Applications, then open the installed app. [Mac releases and checksums](https://github.com/danielyaa5/3d-print-monitor/releases/latest).
-
-Features can differ between the App Store version and the direct Mac release.
+The app is $0.99 with no account, subscription or in-app purchases. An older notarized Mac build (0.5.1) remains on the [releases page](https://github.com/danielyaa5/3d-print-monitor/releases) and is no longer updated.
 
 ## Supported connections
 
@@ -39,10 +37,28 @@ Use **Explore the demo** to try the interface without a printer.
 
 Add the app from your device's widget gallery, then edit the widget to choose a printer. Apple schedules widget refreshes and may delay them. Every reading keeps its actual timestamp; open the app for a fresh update.
 
+## Beta testing and reporting problems
+
+| Status | Printers and connections |
+| --- | --- |
+| Checked on hardware | Bambu Lab H2D (local MQTT), Creality K1 Max (Moonraker and the native K1 interface) |
+| Tested with fixtures, needs real printers | OctoPrint, PrusaLink, Duet / RepRapFirmware, Elegoo SDCP v3, other Klipper and Bambu models |
+| Not supported | USB-only printers without a network host, vendor cloud services, Bambu A1 / P1 direct cameras |
+
+**Report from the app.** Open **Settings and help → Report a problem** (on Mac, also **Help → Report a Problem…**). Choose whether a printer works, partly works or doesn't work, pick the printer, and tick what you checked. No account is needed. After adding a printer, the app also offers **Tell the Developer It Works**, and a failed connection offers **Report This Problem**.
+
+**The diagnostics file.** Printer reports attach `App-diagnostics.txt` unless you turn it off, and you can preview it before sending. It lists the app version, device model, printer type, the kind of address (for example, "http, private IPv4, port 7125"), which credentials are set, the camera setup, which readings arrived and the last error. It never includes printer names, addresses, serial numbers, access codes, passwords, job names, camera images or logs. The [privacy policy](docs/privacy.md#support) lists everything it contains.
+
+**Good to know before testing:**
+
+- There are no push notifications. Widgets refresh when the system schedules them, which can be many minutes apart; open the app for a live reading.
+- The app talks to printers on your local network, or over a VPN that reaches them. It never uses a vendor cloud login.
+- Bambu Lab controls on newer firmware need LAN Only mode with Developer Mode. Status needs only the LAN access code.
+
 ## Support and source
 
-This public repository contains downloads, documentation, and the [issue tracker](https://github.com/danielyaa5/3d-print-monitor/issues). App development is maintained in a private repository.
+This public repository contains the website, documentation and older downloads. App development is maintained in a private repository.
 
-Read the [support guide](docs/support.md) before reporting a problem. Do not include printer credentials, serial numbers, network addresses, or unredacted logs.
+Read the [support guide](docs/support.md) for common problems. If you contact support by email, don't include printer credentials, serial numbers, network addresses or unredacted logs.
 
 3D Print Monitor is an independent app and is not affiliated with printer manufacturers.

@@ -1,8 +1,8 @@
 # Privacy policy
 
-Updated November 5, 2026.
+Updated November 17, 2026.
 
-3D Print Monitor (previously Print Progress on iPhone and iPad; still Print Progress on Mac) connects directly to the printers and local servers you configure. Printer monitoring does not use a developer-operated server. The app has no account system, advertising, analytics SDK, or tracking. An optional support form uses a support relay only when you tap Send request.
+3D Print Monitor (previously Print Progress) connects directly to the printers and local servers you configure. Printer monitoring does not use a developer-operated server. The app has no account system, advertising, analytics SDK, or tracking. An optional support form uses a support relay only when you tap Send request.
 
 ## Data on your device
 
@@ -28,9 +28,17 @@ Apple may collect crash and diagnostic information according to your operating-s
 
 ## Support
 
-When you tap Send request in Contact support, the app sends your summary, message, optional reply email, the displayed app and operating-system versions, and a random request reference to a Cloudflare Worker. The relay forwards the request through Resend to support@danielyakobian.com. The email provider and receiving mailbox process and retain the request so the developer can respond. Cloudflare processes the connection's IP address for rate limiting. The relay stores no report bodies and has application logging disabled.
+When you tap Send request in the Report a problem or Send feedback form, the app sends your summary, message, optional reply email, the displayed app and operating-system versions, the report type you chose, and a random request reference to a Cloudflare Worker. The relay forwards the request through Resend to support@danielyakobian.com. The email provider and receiving mailbox process and retain the request so the developer can respond. Cloudflare processes the connection's IP address for rate limiting. The relay stores no report bodies and has application logging disabled.
 
-No printer settings, credentials, status readings, logs, or camera images are attached. The form shows the information being sent before submission. Support is optional and is not required to monitor printers or use widgets. A success message means the service accepted the request for email delivery; it is not a read receipt. If sending fails, the form preserves your text while it remains open. Requests are used for support, not advertising or tracking.
+Printer reports can also attach a diagnostics file, `App-diagnostics.txt`. It is on by default for problem and printer reports, off for general feedback, and you can turn it off or preview its full text before sending. It contains:
+
+- the app version, operating-system version, device model identifier, where the app was installed (for example, App Store), whether demo mode is on, whether local network access was blocked, the types of saved printers, and the widget photo interval;
+- for the chosen printer: its connection type, the shape of its address (scheme, whether the host is a private IPv4 address, a .local name or another kind of name, the port, and whether a path is used), which credentials are set (yes or no), whether a certificate is pinned, the camera setup, the latest status and how old it is, which readings arrived (yes or no for each), a numeric printer error code, and the category of the last connection error;
+- the parts of the app you said you checked, and any printer model or firmware version you typed.
+
+The diagnostics file never includes printer names, addresses, serial numbers, access codes, API keys, passwords, certificate fingerprints, job names, camera images, logs, or text sent by the printer. If you type a saved printer's address, serial number or access code into the form, the app asks you to remove it before sending.
+
+Support requests are optional and are not required to monitor printers or use widgets. A success message means the service accepted the request for email delivery; it is not a read receipt. If sending fails, the form preserves your text while it remains open. Requests are used for support and printer compatibility, not advertising or tracking.
 
 If you contact support by email instead, the developer receives your email address and whatever you choose to send. To ask about or request deletion of a support request, email support@danielyakobian.com and include its reference if available.
 
