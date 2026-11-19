@@ -1,5 +1,7 @@
 # Privacy policy
 
+This policy is published at https://danielyakobian.com/3d-print-monitor/privacy/. This copy is kept for older links.
+
 Updated November 17, 2026.
 
 3D Print Monitor (previously Print Progress) connects directly to the printers and local servers you configure. Printer monitoring does not use a developer-operated server. The app has no account system, advertising, analytics SDK, or tracking. An optional support form uses a support relay only when you tap Send request.

@@ -6,7 +6,7 @@ Native 3D printer monitoring for iPhone, iPad, and Mac.
 
 **[Get 3D Print Monitor on the App Store](https://apps.apple.com/app/id6824940843)**
 
-[Website](https://danielyaa5.github.io/3d-print-monitor/) · [Support](docs/support.md) · [Privacy](docs/privacy.md)
+[Website](https://danielyakobian.com/3d-print-monitor/) · [Support](https://danielyakobian.com/3d-print-monitor/support/) · [Privacy](https://danielyakobian.com/3d-print-monitor/privacy/)
 
 See print progress, time remaining, the current job, layers, available temperatures and camera snapshots. Add multiple printers and choose which one appears in a widget, or show two printer cameras side by side with the Two Cameras widget. The Mac app also includes a menu bar view.
 
@@ -47,7 +47,7 @@ Add the app from your device's widget gallery, then edit the widget to choose a 
 
 **Report from the app.** Open **Settings and help → Report a problem** (on Mac, also **Help → Report a Problem…**). Choose whether a printer works, partly works or doesn't work, pick the printer, and tick what you checked. No account is needed. After adding a printer, the app also offers **Tell the Developer It Works**, and a failed connection offers **Report This Problem**.
 
-**The diagnostics file.** Printer reports attach `App-diagnostics.txt` unless you turn it off, and you can preview it before sending. It lists the app version, device model, printer type, the kind of address (for example, "http, private IPv4, port 7125"), which credentials are set, the camera setup, which readings arrived and the last error. It never includes printer names, addresses, serial numbers, access codes, passwords, job names, camera images or logs. The [privacy policy](docs/privacy.md#support) lists everything it contains.
+**The diagnostics file.** Printer reports attach `App-diagnostics.txt` unless you turn it off, and you can preview it before sending. It lists the app version, device model, printer type, the kind of address (for example, "http, private IPv4, port 7125"), which credentials are set, the camera setup, which readings arrived and the last error. It never includes printer names, addresses, serial numbers, access codes, passwords, job names, camera images or logs. The [privacy policy](https://danielyakobian.com/3d-print-monitor/privacy/#support) lists everything it contains.
 
 **Good to know before testing:**
 
@@ -57,8 +57,8 @@ Add the app from your device's widget gallery, then edit the widget to choose a 
 
 ## Support and source
 
-This public repository contains the website, documentation and older downloads. App development is maintained in a private repository.
+This public repository contains the documentation and older downloads; the website is at https://danielyakobian.com/3d-print-monitor/. App development is maintained in a private repository.
 
-Read the [support guide](docs/support.md) for common problems. If you contact support by email, don't include printer credentials, serial numbers, network addresses or unredacted logs.
+Read the [support guide](https://danielyakobian.com/3d-print-monitor/support/) for common problems. If you contact support by email, don't include printer credentials, serial numbers, network addresses or unredacted logs.
 
 3D Print Monitor is an independent app and is not affiliated with printer manufacturers.

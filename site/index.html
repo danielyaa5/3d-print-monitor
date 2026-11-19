@@ -1,71 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1516">
-  <meta name="description" content="Native 3D printer monitoring for iPhone, iPad, and Mac, with widgets, temperatures and camera snapshots. Get 3D Print Monitor on the App Store.">
-  <meta property="og:title" content="3D Print Monitor · Downloads and support">
-  <meta property="og:description" content="Native 3D printer monitoring for iPhone, iPad, and Mac.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://danielyaa5.github.io/3d-print-monitor/">
-  <link rel="canonical" href="https://danielyaa5.github.io/3d-print-monitor/">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="styles.css">
-  <title>3D Print Monitor · Downloads and support</title>
-  <style>
-    .download-main { padding-block: clamp(3rem, 8vw, 7rem); }
-    .download-main .intro { max-width: 42rem; }
-    .download-main .actions { flex-wrap: wrap; }
-    .download-main h1 { font-size: clamp(3rem, 8vw, 6rem); }
-    .download-details { max-width: 44rem; margin-top: 3rem; }
-    .download-details h2 { font-size: 1.7rem; }
-    .download-details p { margin-block: 1rem; }
-    .beta-note { max-width: 42rem; margin-top: 1.75rem; padding: .9rem 1.1rem; border: 1px solid var(--line); border-left: 3px solid var(--mint); border-radius: 9px; background: var(--panel); font-size: 15px; line-height: 1.6; }
-    .beta-note strong { color: var(--ink); font-weight: 650; }
-    .beta-note a { color: var(--mint); text-decoration: underline; text-underline-offset: 3px; }
-    .download-details a.inline-link { color: var(--mint); text-decoration: underline; text-underline-offset: 3px; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3D Print Monitor has moved</title>
+<!-- This page now lives on danielyakobian.com. GitHub Pages cannot send server redirects,
+     so this page forwards visitors and search engines to the new address, keeping any query or #section. -->
+<link rel="canonical" href="https://danielyakobian.com/3d-print-monitor/">
+<link rel="icon" href="favicon.png">
+<meta http-equiv="refresh" content="0; url=https://danielyakobian.com/3d-print-monitor/">
+<script>location.replace("https://danielyakobian.com/3d-print-monitor/" + location.search + location.hash);</script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="3D Print Monitor home"><img src="icon.webp" width="42" height="42" alt="">3D Print Monitor</a>
-    <nav aria-label="Main navigation"><a href="https://github.com/danielyaa5/3d-print-monitor">GitHub &amp; support</a></nav>
-  </header>
-  <main id="main" class="wrap download-main">
-    <p class="eyebrow">Beta · iPhone · iPad · Mac</p>
-    <h1>Your prints.<br><span>At a glance.</span></h1>
-    <p class="intro">See print progress, time remaining, temperatures and camera snapshots from your 3D printers. Add a widget, show two printer cameras side by side, or keep a print in your Mac menu bar.</p>
-    <p class="beta-note"><strong>Beta.</strong> Only the Bambu Lab H2D and Creality K1 Max have been checked on real hardware so far. If you try another printer, please <a href="#report">report from the app</a> whether it works, partly works or doesn't.</p>
-    <div class="actions">
-      <a class="button" data-app-store href="https://apps.apple.com/app/id6824940843">Get it on the App Store <span aria-hidden="true">↗</span></a>
-      <a class="text-link" href="#report">How to report a problem <span aria-hidden="true">↓</span></a>
-    </div>
-    <p class="download-note">iPhone and iPad: iOS / iPadOS 17+. Free, no account or subscription.<br>Mac: macOS 14+, joining the same App Store listing, so one download covers both.</p>
-    <section class="download-details" aria-labelledby="details-title">
-      <h2 id="details-title">Get connected.</h2>
-      <p>Connect to the printer's network or a suitable VPN, add your printer, and allow Local Network access. Explore the built-in demo if you want to look around first.</p>
-      <p>Supports Bambu Lab LAN, Klipper / Moonraker, OctoPrint, PrusaLink, Duet / RepRapFirmware, Creality K1-series native status, and SDCP v3. Compatibility depends on firmware and the interface your printer exposes.</p>
-      <p>There are no push notifications. Apple schedules widget refreshes and may delay them. Readings keep their actual timestamps; open the app for a fresh update.</p>
-      <p>An older notarized Mac build (0.5.1) remains on the <a class="inline-link" href="https://github.com/danielyaa5/3d-print-monitor/releases">releases page</a> and is no longer updated.</p>
-      <a class="text-link" href="https://github.com/danielyaa5/3d-print-monitor#setup">Setup and compatibility details <span aria-hidden="true">↗</span></a>
-    </section>
-    <section class="download-details" id="report" aria-labelledby="report-title">
-      <h2 id="report-title">Tell us how it went.</h2>
-      <p>In the app, open Settings and help, then Report a problem. On Mac you can also use Help, then Report a Problem. Say whether a printer works, partly works or doesn't, pick the printer and tick what you checked. No account is needed. After adding a printer, the app also offers Tell the Developer It Works.</p>
-      <p>Reports can attach a diagnostics file that you preview before sending and can turn off. It lists the app version, device model, printer type, the kind of address, which readings arrived and the last error. It never includes printer names, addresses, serial numbers, access codes, job names, camera images or logs.</p>
-      <a class="text-link" href="https://github.com/danielyaa5/3d-print-monitor/blob/master/docs/support.md">Support guide and common problems <span aria-hidden="true">↗</span></a>
-    </section>
-  </main>
-  <footer class="wrap">
-    <div class="brand"><img src="icon.webp" width="34" height="34" alt="">3D Print Monitor</div>
-    <nav aria-label="Footer navigation">
-      <a href="https://github.com/danielyaa5/3d-print-monitor/blob/master/docs/privacy.md">Privacy</a>
-      <a href="https://github.com/danielyaa5/3d-print-monitor/blob/master/docs/support.md">Support</a>
-      <a href="#report">Report a problem</a>
-    </nav>
-    <small>Independent software. Not affiliated with printer manufacturers.</small>
-  </footer>
+<p>This page moved to <a href="https://danielyakobian.com/3d-print-monitor/">https://danielyakobian.com/3d-print-monitor/</a>.</p>
 </body>
 </html>

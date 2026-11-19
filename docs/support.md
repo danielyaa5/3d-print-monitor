@@ -1,5 +1,7 @@
 # Support
 
+This guide is published at https://danielyakobian.com/3d-print-monitor/support/. This copy is kept for older links.
+
 Read the [setup instructions](../README.md#setup) first. The quickest way to get help is from inside the app; no account or email app is needed.
 
 ## Report from the app
