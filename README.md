@@ -17,7 +17,7 @@ See print progress, time remaining, the current job, layers, available temperatu
 | iPhone and iPad | [App Store](https://apps.apple.com/app/id6824940843) | iOS / iPadOS 17 or later |
 | Mac | Joining the same [App Store](https://apps.apple.com/app/id6824940843) listing; one purchase covers both | macOS 14 or later; Apple silicon or Intel |
 
-The app is $0.99 with no account, subscription or in-app purchases. An older notarized Mac build (0.5.1) remains on the [releases page](https://github.com/danielyaa5/3d-print-monitor/releases) and is no longer updated.
+The app is free, with no account, subscription or in-app purchases. An older notarized Mac build (0.5.1) remains on the [releases page](https://github.com/danielyaa5/3d-print-monitor/releases) and is no longer updated.
 
 ## Supported connections
 
