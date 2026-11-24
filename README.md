@@ -4,7 +4,7 @@ Native 3D printer monitoring for iPhone, iPad, and Mac.
 
 > **Beta.** Only the Bambu Lab H2D and Creality K1 Max have been checked on real hardware so far. If you try another printer, please [report from the app](#beta-testing-and-reporting-problems) whether it works.
 
-**[Get 3D Print Monitor on the App Store](https://apps.apple.com/app/id6824940843)**
+**[Get notified when 3D Print Monitor is available](https://danielyakobian.com/3d-print-monitor/#updates)**
 
 [Website](https://danielyakobian.com/3d-print-monitor/) · [Support](https://danielyakobian.com/3d-print-monitor/support/) · [Privacy](https://danielyakobian.com/3d-print-monitor/privacy/)
 
@@ -14,10 +14,10 @@ See print progress, time remaining, the current job, layers, available temperatu
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| iPhone and iPad | [App Store](https://apps.apple.com/app/id6824940843) | iOS / iPadOS 17 or later |
-| Mac | [3D Print Progress](https://apps.apple.com/app/id6824942458) on the Mac App Store for now; the Mac app is joining the same [App Store](https://apps.apple.com/app/id6824940843) listing as iPhone, so one download will cover both | macOS 14 or later; Apple silicon or Intel |
+| iPhone and iPad | Small TestFlight beta for now. [Get notified](https://danielyakobian.com/3d-print-monitor/#updates) when it's on the App Store | iOS / iPadOS 17 or later |
+| Mac | Same beta and the same listing as iPhone, so one download will cover both | macOS 14 or later; Apple silicon or Intel |
 
-The app is free, with no account, subscription or in-app purchases. An older notarized Mac build (0.5.1) remains on the [releases page](https://github.com/danielyaa5/3d-print-monitor/releases) and is no longer updated.
+The app is off the App Store while it gets tested on more printers. It's free, with no account, subscription or in-app purchases. An older notarized Mac build (0.5.1) remains on the [releases page](https://github.com/danielyaa5/3d-print-monitor/releases) and is no longer updated.
 
 ## Supported connections
 
